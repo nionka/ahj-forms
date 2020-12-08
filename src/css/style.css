@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 200px;
+}
+
+.btn {
+    background-color: rgb(228, 62, 62);
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    border: 1px solid rgb(29, 11, 11);
+    outline: none;
+}
+
+.popover {
+    position: absolute;
+    max-width: 270px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.popover h1 {
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: rgba(194, 181, 181, 0.836);
+}
+
+.popover div {
+    padding: 10px;
+}
